@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Encryption class for RC4 encryption
 Summary(pl):	%{_pearname} - Klasa szyfruj±ca w algorytmie RC4
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	cf041f0b6250af8bf8fe48e3c2658ed5
+# Source0-md5:	90837b9317deaf42f563958b4689b937
 URL:		http://pear.php.net/package/Crypt_Rc4/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -36,7 +36,7 @@ Ta klasa ma w PEAR status: %{_status}.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
 
-install %{_pearname}-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
+install %{_class}_RC4-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
