@@ -3,15 +3,16 @@
 %define		_subclass	Rc4
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - Encryption class for RC4 encryption
 Summary(pl):	%{_pearname} - Klasa szyfruj±ca w algorytmie RC4
 Name:		php-pear-%{_pearname}
-Version:	1.0
+Version:	1.0.1
 Release:	1
-License:	PHP 2.02
+License:	PHP
 Group:		Development/Languages/PHP
-# Source0-md5:	567257a27fa92e05f5b9b692333c56e1
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	cf041f0b6250af8bf8fe48e3c2658ed5
 URL:		http://pear.php.net/package/%{_pearname}/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
