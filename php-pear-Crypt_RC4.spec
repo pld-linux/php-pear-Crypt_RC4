@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Crypt
 %define		_subclass	Rc4
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Encryption class for RC4 encryption
 Summary(pl):	%{_pearname} - Klasa szyfruj±ca w algorytmie RC4
@@ -19,8 +20,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 RC4 encryption class.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Klasa szyfruj±ca w algorytmie RC4.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
