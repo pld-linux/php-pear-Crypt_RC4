@@ -6,7 +6,7 @@ Summary:	%{_class}_%{_subclass} - Encryption class for RC4 encryption
 Summary(pl):	%{_class}_%{_subclass} - Klasa szyfruj±ca w algorytmie RC4
 Name:		php-pear-%{_pearname}
 Version:	0.1
-Release:	2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
