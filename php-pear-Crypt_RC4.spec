@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Encryption class for RC4 encryption
-Summary(pl):	%{_pearname} - Klasa szyfruj±ca w algorytmie RC4
+Summary(pl.UTF-8):   %{_pearname} - Klasa szyfrujÄ…ca w algorytmie RC4
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	3
@@ -26,8 +26,8 @@ RC4 encryption class.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa szyfruj±ca w algorytmie RC4.
+%description -l pl.UTF-8
+Klasa szyfrujÄ…ca w algorytmie RC4.
 
 Ta klasa ma w PEAR status: %{_status}.
 
