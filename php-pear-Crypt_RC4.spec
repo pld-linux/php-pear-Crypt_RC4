@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Encryption class for RC4 encryption
-Summary(pl.UTF-8):   %{_pearname} - Klasa szyfrująca w algorytmie RC4
+Summary(pl.UTF-8):	%{_pearname} - Klasa szyfrująca w algorytmie RC4
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	3
