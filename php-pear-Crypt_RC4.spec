@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Encryption class for RC4 encryption
 Summary(pl.UTF-8):	%{_pearname} - Klasa szyfrująca w algorytmie RC4
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
-Release:	3
+Release:	4
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
