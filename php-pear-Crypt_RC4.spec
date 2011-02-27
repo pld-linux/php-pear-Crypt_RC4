@@ -1,23 +1,21 @@
-%include	/usr/lib/rpm/macros.php
-%define		_class		Crypt
-%define		_subclass	Rc4
 %define		_status		stable
-%define		_pearname	%{_class}_%{_subclass}
-
+%define		_pearname	Crypt_RC4
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Encryption class for RC4 encryption
 Summary(pl.UTF-8):	%{_pearname} - Klasa szyfrująca w algorytmie RC4
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
-Release:	4
+Version:	1.0.3
+Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	90837b9317deaf42f563958b4689b937
-URL:		http://pear.php.net/package/Crypt_Rc4/
+# Source0-md5:	571483de3a74b74f49c25e49ace04d89
+URL:		http://pear.php.net/package/Crypt_RC4/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
+Obsoletes:	php-pear-Crypt_Rc4 < 1.0.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,4 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
+%{php_pear_dir}/Crypt/*.php
