@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	Crypt_RC4
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Encryption class for RC4 encryption
 Summary(pl.UTF-8):	%{_pearname} - Klasa szyfrująca w algorytmie RC4
 Name:		php-pear-%{_pearname}
